@@ -11,6 +11,8 @@ const MyNavbar = () => {
         fixed="top"
         variant="dark"
         expand="md"
+        sticky="top"
+
         className="animate-navbar nav-theme justify-content-between"
       >
         <div>
@@ -19,7 +21,7 @@ const MyNavbar = () => {
           </Navbar.Brand>
         </div>
         <div>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Toggle aria-controls="navbarNavDropdown" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto ">
               <Nav.Link href="#home">Home</Nav.Link>
